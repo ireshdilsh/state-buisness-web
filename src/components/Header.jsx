@@ -1,7 +1,14 @@
 import React from 'react'
 import "../styles/Header.css"
 import logo from "../assets/logo-original.png"
+
 export default function Header() {
+
+  const clickGetStartButton = () => {
+    // this has make sign in model 
+    console.log('Get started button clicked');
+  }
+
   return (
     <div>
        <nav>
@@ -16,7 +23,7 @@ export default function Header() {
           <a href="">Contact</a>
         </div>
         <div className="button">
-        <button type="button" class="btn btn-primary">Get started</button>
+        <button onClick={clickGetStartButton} type="submit" class="btn btn-primary">Get Started</button>
         </div>
        </nav>
     </div>

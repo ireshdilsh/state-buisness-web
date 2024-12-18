@@ -3,6 +3,46 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
 }
 
+.home-body .hero-card{
+    margin: 25px 180px 0;
+    background-color: #fafafa;
+    border-radius: 15px;
+    padding:50px 80px;
+}
+
+.home-body .hero-card .hero-card-title p{
+    font-size: 36px;
+}
+
+.home-body .hero-card .hero-discription p{
+    color: #a1a1aa;
+    font-size: 12px;
+}
+
+.home-body .hero-card .signin-button{
+    margin-top: 25px;
+}
+
+.home-body .hero-card .signin-button button{
+    width: 150px;
+    height: 50px;
+    font-size: 13px;
+}
+
+#carouselExampleAutoplaying {
+    height: 325px;
+    width: 500px;
+    position: absolute;
+    top: 155px;
+    left: 750px;
+}
+#carouselExampleAutoplaying img{
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 25px;    
+}

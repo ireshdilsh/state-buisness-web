@@ -40,4 +40,5 @@ nav .button{
 nav .button button{
     width: 120px;
     height: 40px;
+    font-size: 13px;
 }
