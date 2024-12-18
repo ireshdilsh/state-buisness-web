@@ -15,8 +15,6 @@ footer .footer-col-1{
 footer{
     width: 100%;
     height: 330px;    
-    border: 1px solid black;
-    background-color: #ffffffc4;
     display: flex;
 }
 
